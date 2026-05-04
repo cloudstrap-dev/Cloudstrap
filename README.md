@@ -1,10 +1,7 @@
 <p align="center">
-<a href="https://cloudstrap-dev.github.io/Cloudstrap">
-<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" alt="preview" width="100px"/>
+<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" width="150px"/>
 </a>
 </p>
-
-## Cloudstrap
 
 [![Total Downloads][shield-repo-total]][repo-releases]
 [![Latest Downloads][shield-repo-downloads]][repo-latest]
