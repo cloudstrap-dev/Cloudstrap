@@ -179,9 +179,9 @@ namespace Bloxstrap
             {
                 bool showAlreadyRunningWarning = Process.GetProcessesByName(App.ProjectName).Length > 1;
 
-                if (App.Settings.Prop.ShowUsingCloudstrapRPC && App.CloudRPC == null)
+                if (App.Settings.Prop.ShowUsingNyxstrapRPC && App.CloudRPC == null)
                 {
-                    App.CloudRPC = new CloudstrapRichPresence();
+                    App.CloudRPC = new NyxstrapRichPresence();
                 }
 
                 var window = new UI.Elements.Settings.MainWindow(showAlreadyRunningWarning);
@@ -206,9 +206,9 @@ namespace Bloxstrap
 
         public static void LaunchMenu()
         {
-            if (App.Settings.Prop.ShowUsingCloudstrapRPC && App.CloudRPC == null)
+            if (App.Settings.Prop.ShowUsingNyxstrapRPC && App.CloudRPC == null)
             {
-                App.CloudRPC = new CloudstrapRichPresence();
+                App.CloudRPC = new NyxstrapRichPresence();
             }
 
             var dialog = new LaunchMenuDialog();

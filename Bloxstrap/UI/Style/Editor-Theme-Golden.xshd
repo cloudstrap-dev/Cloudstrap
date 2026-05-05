@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<SyntaxDefinition name="XML" extensions=".xml;.xaml" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+    <Color name="Comment"          foreground="#7E7059" /> <!-- Bronze Comments -->
+    <Color name="CData"            foreground="#D4C4A8" /> 
+    <Color name="XmlDeclaration"   foreground="#D4AF37" /> <!-- Gold Declaration -->
+    <Color name="XmlTag"           foreground="#FFD700" /> <!-- Bright Gold Tags -->
+    <Color name="AttributeName"    foreground="#E5C17A" /> <!-- Soft Gold Attributes -->
+    <Color name="AttributeValue"   foreground="#CE9178" /> <!-- Copper/Orange Values -->
+    <Color name="Entity"           foreground="#B5CEA8" /> 
+    <Color name="BrokenEntity"     foreground="#F44747" />
+
+    <RuleSet>
+        <Span color="Comment" multiline="true"><Begin>&lt;!--</Begin><End>--&gt;</End></Span>
+        <Span color="XmlDeclaration" multiline="true"><Begin>&lt;\?</Begin><End>\?&gt;</End></Span>
+        <Span color="XmlTag" multiline="true">
+            <Begin>&lt;</Begin><End>&gt;</End>
+            <RuleSet>
+                <Span color="AttributeValue" multiline="true"><Begin>"</Begin><End>"|(?=&lt;)</End></Span>
+                <Rule color="AttributeName">[\d\w_\-\.]+(?=\s*=)</Rule>
+            </RuleSet>
+        </Span>
+    </RuleSet>
+</SyntaxDefinition>

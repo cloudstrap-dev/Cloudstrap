@@ -8,10 +8,16 @@ namespace Bloxstrap.UI.ViewModels.Settings
 {
     public class IntegrationsViewModel : NotifyPropertyChangedViewModel
     {
+        // This is the property that links to the toggle switch in the UI
+        // It saves the user's choice to the application settings automatically
+        public bool UseNetworkOptimization
+        {
+            get => App.Settings.Prop.UseNetworkOptimization;
+            set => App.Settings.Prop.UseNetworkOptimization = value;
+        }
+
         public ICommand AddIntegrationCommand => new RelayCommand(AddIntegration);
-
         public ICommand DeleteIntegrationCommand => new RelayCommand(DeleteIntegration);
-
         public ICommand BrowseIntegrationLocationCommand => new RelayCommand(BrowseIntegrationLocation);
 
         private void AddIntegration()
@@ -22,7 +28,6 @@ namespace Bloxstrap.UI.ViewModels.Settings
             });
 
             SelectedCustomIntegrationIndex = CustomIntegrations.Count - 1;
-
             OnPropertyChanged(nameof(SelectedCustomIntegrationIndex));
             OnPropertyChanged(nameof(IsCustomIntegrationSelected));
         }
@@ -106,18 +111,18 @@ namespace Bloxstrap.UI.ViewModels.Settings
             }
         }
 
-        public bool ShowUsingCloudstrapRPC
+        public bool ShowUsingNyxstrapRPC
         {
-            get => App.Settings.Prop.ShowUsingCloudstrapRPC;
+            get => App.Settings.Prop.ShowUsingNyxstrapRPC;
             set
             {
-                App.Settings.Prop.ShowUsingCloudstrapRPC = value;
+                App.Settings.Prop.ShowUsingNyxstrapRPC = value;
 
                 if (value)
                 {
                     if (App.CloudRPC == null)
                     {
-                        App.CloudRPC = new CloudstrapRichPresence();
+                        App.CloudRPC = new NyxstrapRichPresence();
                         App.CloudRPC.SetPage("Integration");
                     }
                 }

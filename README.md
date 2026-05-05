@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/cloudstrap-dev/Cloudstrap/main/Bloxstrap/Cloudstrap.png" width="150px"/>
+<img src="https://raw.githubusercontent.com/nyxstrap/Nyxstrap/main/Bloxstrap/Nyxstrap.png" width="150px"/>
 </a>
 </p>
 
-<h1 align="center"><b>Cloudstrap</b></h1>
+<h1 align="center"><b>Nyxstrap</b></h1>
 
 <div align="center">
 
@@ -16,14 +16,14 @@
 </div>
 
 > [!NOTE]
-> **Cloudstrap only supports Windows 10 and 11**. Linux support may be possible in the future.
+> **Nyxstrap only supports Windows 10 and 11**. Linux support may be possible in the future.
 
-Cloudstrap is a fast and lightweight Roblox bootstrapper that aims to improve your in-game experience. 
+Nyxstrap is a fast and lightweight Roblox bootstrapper that aims to improve your in-game experience. 
 
 Download the latest release [here][repo-latest]
 
 Found any bugs or issues?
-👉 [Submit an issue](https://github.com/cloudstrap-dev/Cloudstrap/issues/new/choose)
+👉 [Submit an issue](https://github.com/nyxstrap/Nyxstrap/issues/new/choose)
 
 <hr>
 
@@ -56,7 +56,7 @@ Found any bugs or issues?
   - Adaptive RAM trimming with configurable Threshold (activation point) and Interval (frequency).
   - Disable RobloxCrashHandler.exe
   - Update roblox in the background
-  - Auto-update Cloudstrap
+  - Auto-update Nyxstrap
   - Cache cleaner
   - Toggle Minimize Roblox to tray
   - Toggle Launch Roblox On startup
@@ -107,7 +107,7 @@ Found any bugs or issues?
   </a>
 </p>
 
-Cloudstrap is built using **C#**.
+Nyxstrap is built using **C#**.
 
 ### Fork the repo
 
@@ -117,11 +117,11 @@ Cloudstrap is built using **C#**.
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=cloudstrap-dev%2FCloudstrap&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=nyxstrap%2FNyxstrap&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=cloudstrap-dev/Cloudstrap&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nyxstrap/Nyxstrap&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nyxstrap/Nyxstrap&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nyxstrap/Nyxstrap&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -133,14 +133,14 @@ Cloudstrap is built using **C#**.
   </a>
 </p>
 
-[shield-repo-downloads]:  https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/latest/total?color=981bfe
-[shield-repo-total]:      https://img.shields.io/github/downloads/cloudstrap-dev/Cloudstrap/total?color=8a2be2
-[shield-repo-latest]:     https://img.shields.io/github/v/release/cloudstrap-dev/Cloudstrap?color=7a39fb
-[shield-repo-stars]:      https://img.shields.io/github/stars/cloudstrap-dev/Cloudstrap?color=ffd700
+[shield-repo-downloads]:  https://img.shields.io/github/downloads/nyxstrap/Nyxstrap/latest/total?color=981bfe
+[shield-repo-total]:      https://img.shields.io/github/downloads/nyxstrap/Nyxstrap/total?color=8a2be2
+[shield-repo-latest]:     https://img.shields.io/github/v/release/nyxstrap/Nyxstrap?color=7a39fb
+[shield-repo-stars]:      https://img.shields.io/github/stars/nyxstrap/Nyxstrap?color=ffd700
 [shield-discord-server]:  https://img.shields.io/discord/1500364173102547028?logo=discord&logoColor=white&label=Discord&color=4d3dff
-[repo-url]: https://github.com/cloudstrap-dev/Cloudstrap
+[repo-url]: https://github.com/nyxstrap/Nyxstrap
 
-[repo-releases]:          https://github.com/cloudstrap-dev/Cloudstrap/releases
-[repo-latest]:            https://github.com/cloudstrap-dev/Cloudstrap/releases/latest
-[repo-stargazers]:        https://github.com/cloudstrap-dev/Cloudstrap/stargazers
+[repo-releases]:          https://github.com/nyxstrap/Nyxstrap/releases
+[repo-latest]:            https://github.com/nyxstrap/Nyxstrap/releases/latest
+[repo-stargazers]:        https://github.com/nyxstrap/Nyxstrap/stargazers
 [discord-invite]:         https://discord.gg/P3HUKK8xcM

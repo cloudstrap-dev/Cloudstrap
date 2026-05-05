@@ -12,15 +12,15 @@
 	<Nullable>enable</Nullable>
 	<UseWPF>true</UseWPF>
 	<UseWindowsForms>False</UseWindowsForms>
-	<ApplicationIcon>Cloudstrap.ico</ApplicationIcon>
-	<Version>1.0.0</Version>
-	<FileVersion>1.0.0</FileVersion>
-	<AssemblyVersion>1.0.0</AssemblyVersion>
-	<InformationalVersion>1.0.0</InformationalVersion>
+	<ApplicationIcon>Nyxstrap.ico</ApplicationIcon>
+	<Version>1.1.0</Version>
+	<FileVersion>1.1.0</FileVersion>
+	<AssemblyVersion>1.1.0</AssemblyVersion>
+	<InformationalVersion>1.1.0</InformationalVersion>
 	<ApplicationManifest>app.manifest</ApplicationManifest>
 	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
-	<AssemblyName>Cloudstrap</AssemblyName>
+	<AssemblyName>Nyxstrap</AssemblyName>
 	<Product>$(AssemblyName)</Product>
 	<RootNamespace>Bloxstrap</RootNamespace>
 	<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
@@ -35,7 +35,7 @@
   </ItemGroup>
     
   <ItemGroup>
-    <Resource Include="Cloudstrap.ico" />
+    <Resource Include="Nyxstrap.ico" />
     <Resource Include="Resources\LightEditor.xshd" />
     <Resource Include="Resources\Fonts\NotoSansThai-VariableFont_wdth,wght.ttf" />
     <Resource Include="Resources\Fonts\Rubik-VariableFont_wght.ttf" />
@@ -45,6 +45,9 @@
     <Resource Include="Resources\MessageBox\Warning.png" />
     <EmbeddedResource Include="UI\Style\Editor-Theme-Dark.xshd" />
     <EmbeddedResource Include="UI\Style\Editor-Theme-Light.xshd" />
+    <EmbeddedResource Include="UI\Style\Editor-Theme-Nyxstrap.xshd" />
+    <EmbeddedResource Include="UI\Style\Editor-Theme-Golden.xshd" />
+    <EmbeddedResource Include="UI\Style\Editor-Theme-Void.xshd" />
   </ItemGroup>
 
   <ItemGroup>

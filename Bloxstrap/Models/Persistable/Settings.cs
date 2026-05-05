@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 
 namespace Bloxstrap.Models.Persistable
 {
@@ -8,12 +9,14 @@ namespace Bloxstrap.Models.Persistable
 
         // configuration
         public BootstrapperStyle BootstrapperStyle { get; set; } = BootstrapperStyle.FluentAeroDialog;
-        public BootstrapperIcon BootstrapperIcon { get; set; } = BootstrapperIcon.IconCloudstrap;
+        public BootstrapperIcon BootstrapperIcon { get; set; } = BootstrapperIcon.IconNyxstrap;
         public string BootstrapperTitle { get; set; } = App.ProjectName;
         public string BootstrapperIconCustomLocation { get; set; } = "";
-        public Theme Theme { get; set; } = Theme.Default;
+        public Theme Theme { get; set; } = Theme.Nyxstrap;
+        
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
         public bool DeveloperMode { get; set; } = false;
+        
         public bool ForceLocalData { get; set; } = false;
         public bool CheckForUpdates { get; set; } = true;
         public bool AutoCloseCrashHandler { get; set; } = true;
@@ -39,6 +42,9 @@ namespace Bloxstrap.Models.Persistable
         public bool LaunchOnStartup { get; set; } = false;
         public bool DebugDisableVersionPackageCleanup { get; set; } = false;
         public WebEnvironment WebEnvironment { get; set; } = WebEnvironment.Production;
+        
+        // Network Optimization Toggle
+        public bool UseNetworkOptimization { get; set; } = false;
 
         // integration configuration
         public CleanerOptions CleanerOptions { get; set; } = CleanerOptions.Never;
@@ -46,7 +52,7 @@ namespace Bloxstrap.Models.Persistable
         public bool EnableActivityTracking { get; set; } = true;
         public bool UseDiscordRichPresence { get; set; } = true;
         public bool HideRPCButtons { get; set; } = true;
-        public bool ShowUsingCloudstrapRPC { get; set; } = true;
+        public bool ShowUsingNyxstrapRPC { get; set; } = true;
         public bool EnableCustomStatusDisplay { get; set; } = true;
         public bool ShowAccountOnRichPresence { get; set; } = false;
         public bool ShowServerDetails { get; set; } = false;

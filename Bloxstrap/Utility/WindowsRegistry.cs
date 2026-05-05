@@ -1,4 +1,7 @@
 ﻿using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Bloxstrap.Utility
 {
@@ -6,7 +9,28 @@ namespace Bloxstrap.Utility
     {
         private const string RobloxPlaceKey = "Roblox.Place";
 
+        private const string NyxstrapKey = @"Software\Nyxstrap";
+        private const string AdminFlag = "AdminPermissionsGranted";
+
         public static readonly List<RegistryKey> Roots = new() { Registry.CurrentUser, Registry.LocalMachine };
+
+        /// <summary>
+        /// Checks if the user has previously granted admin permissions for optimizations.
+        /// </summary>
+        public static bool CheckAdminStatus()
+        {
+            using var key = Registry.CurrentUser.OpenSubKey(NyxstrapKey);
+            return key?.GetValue(AdminFlag) != null;
+        }
+
+        /// <summary>
+        /// Flags the registry so Nyxstrap remembers admin was granted for system tweaks.
+        /// </summary>
+        public static void SetAdminGranted()
+        {
+            using var key = Registry.CurrentUser.CreateSubKey(NyxstrapKey);
+            key.SetValueSafe(AdminFlag, "true");
+        }
 
         public static void RegisterProtocol(string key, string name, string handler, string handlerParam = "%1")
         {
@@ -30,7 +54,7 @@ namespace Bloxstrap.Utility
         }
 
         /// <summary>
-        /// Registers Roblox Player protocols for Bloxstrap
+        /// Registers Roblox Player protocols for Bloxstrap/Nyxstrap
         /// </summary>
         public static void RegisterPlayer() => RegisterPlayer(Paths.Application, "-player \"%1\"");
 
@@ -41,7 +65,7 @@ namespace Bloxstrap.Utility
         }
 
         /// <summary>
-        /// Registers all Roblox Studio classes for Bloxstrap
+        /// Registers all Roblox Studio classes for Bloxstrap/Nyxstrap
         /// </summary>
         public static void RegisterStudio()
         {
@@ -53,8 +77,6 @@ namespace Bloxstrap.Utility
         /// <summary>
         /// Registers roblox-studio and roblox-studio-auth protocols
         /// </summary>
-        /// <param name="handler"></param>
-        /// <param name="handlerParam"></param>
         public static void RegisterStudioProtocol(string handler, string handlerParam)
         {
             RegisterProtocol("roblox-studio", "Roblox", handler, handlerParam);
@@ -73,8 +95,6 @@ namespace Bloxstrap.Utility
         /// <summary>
         /// Registers Roblox.Place class
         /// </summary>
-        /// <param name="handler"></param>
-        /// <param name="handlerParam"></param>
         public static void RegisterStudioFileClass(string handler, string handlerParam)
         {
             const string keyValue = "Roblox Place";
@@ -116,7 +136,6 @@ namespace Bloxstrap.Utility
                 apisKey.SetValueSafe("ApplicationPath", Paths.Application);
                 apisKey.SetValueSafe("InstallationPath", Paths.Base);
             }
-            ;
 
             var currentApis = Registry.CurrentUser.OpenSubKey(App.ApisKey, false);
 
@@ -124,7 +143,7 @@ namespace Bloxstrap.Utility
             {
                 Register();
             }
-            ;
+
             currentApis?.Dispose();
         }
 

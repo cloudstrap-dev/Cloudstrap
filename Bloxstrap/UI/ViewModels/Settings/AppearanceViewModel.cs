@@ -117,7 +117,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
                 if (String.IsNullOrEmpty(value))
                 {
                     if (App.Settings.Prop.BootstrapperIcon == BootstrapperIcon.IconCustom)
-                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconCloudstrap;
+                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconNyxstrap;
                 }
                 else
                 {

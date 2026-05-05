@@ -59,28 +59,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Cloudstrap nespēja automātiski atjaunoties uz versiju {0}. Lūdzu, atjauniniet to manuāli, lejupielādējot un palaižot to no mājslapas.</value>
+    <value>Nyxstrap neizdevās automātiski atjaunināties uz versiju {0}. Lūdzu, atjauniniet to manuāli, lejupielādējot un palaižot jauno versiju no mūsu mājaslapas.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
-    <value>Roblox šobrīd jau ir palaists, un tas tiks aizvērts, atverot jaunu Roblox logu. Vai jūs esat pārliecināts, ka gribat turpināt palaišanu?</value>
+    <value>Roblox jau darbojas. Atverot jaunu logu, esošā sesija tiks pārtraukta. Vai tiešām vēlaties turpināt?</value>
   </data>
   <data name="Dialog.Connectivity.RobloxDown" xml:space="preserve">
-    <value>Roblox šobrīd varētu nedarboties. Skatiet {0} priekš vairāk informācijas.</value>
+    <value>Iespējams, Roblox šobrīd nedarbojas. Plašāka informācija pieejama {0}.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Nevarēja izveidot savienojumu, kas norāda, ka interneta savienojums ir nestabils vai ugunsmūrī ir uzstādīta bloķēšana. Ja jūsu interneta savienojums ir labs, lūdzu pārbaudiet, vai jūsu antivīruss nebloķē Cloudstrap.</value>
+    <value>Neizdevās izveidot savienojumu. Tas var liecināt par nestabilu internetu vai ugunsmūra ierobežojumiem. Ja internets darbojas, lūdzu, pārbaudiet, vai antivīruss nebloķē Nyxstrap.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Jums vajag vispirms instalēt Cloudstrap, pirms jūs to atinstalējat.</value>
+    <value>Pirms atinstalēšanas Nyxstrap vispirms ir jāuzinstalē.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Cloudstrap nav pieejama pietiekami daudz vieta diskā, lai lejupielādētu un instalētu Roblox. Lūdzu atbrīvojiet vietu diskā un mēģiniet vēlreiz.</value>
+    <value>Nav pietiekami vietas diskā, lai lejupielādētu un instalētu Roblox. Lūdzu, atbrīvojiet vietu un mēģiniet vēlreiz.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
-    <value>Uzstāda Roblox modifikācijas...</value>
+    <value>Tiek lietotas modifikācijas...</value>
   </data>
   <data name="Bootstrapper.Status.Configuring" xml:space="preserve">
-    <value>Notiek {product} konfigurācija...</value>
+    <value>Notiek {product} konfigurēšana...</value>
   </data>
   <data name="Bootstrapper.Status.Connecting" xml:space="preserve">
     <value>Savienojas ar Roblox...</value>
@@ -89,37 +89,34 @@
     <value>Instalē {product}...</value>
   </data>
   <data name="Bootstrapper.Status.InstallingWebView2" xml:space="preserve">
-    <value>Instalē WebView2, lūdzu uzgaidiet...</value>
+    <value>Instalē WebView2, lūdzu, uzgaidiet...</value>
   </data>
   <data name="Bootstrapper.Status.Starting" xml:space="preserve">
-    <value>Notiek {product} palaišana...</value>
-    <comment>"Starting Roblox" or "Starting Roblox Studio"</comment>
+    <value>Palaiž {product}...</value>
   </data>
   <data name="Bootstrapper.Status.Upgrading" xml:space="preserve">
-    <value>Notiek {product} jaunināšana...</value>
+    <value>Atjaunina {product}...</value>
   </data>
   <data name="Bootstrapper.Status.WaitingOtherInstances" xml:space="preserve">
-    <value>Gaida uz pārējiem logiem...</value>
+    <value>Gaida uz pārējām instancēm...</value>
   </data>
   <data name="Bootstrapper.StylePreview.ImageCancel" xml:space="preserve">
-    <value>Stila priekšskats - Noklikšķiniet uz X pogu, kas atrodas augšējā labajā stūri, lai aizvērtu</value>
-    <comment>Text for style previews that use an X button. Currently only applies to Byfron</comment>
+    <value>Stila priekšskats — aizvērt ar 'X' pogu augšējā labajā stūrī</value>
   </data>
   <data name="Bootstrapper.StylePreview.TextCancel" xml:space="preserve">
-    <value>Stila priekšskats - Noklikšķiniet uz Atcelt, lai aizvērtu</value>
-    <comment>Text for style previews that use text button that says "Cancel"</comment>
+    <value>Stila priekšskats — nospiediet 'Atcelt', lai aizvērtu</value>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Cloudstrap veiksmīgi tika atinstalēts</value>
+    <value>Nyxstrap tika veiksmīgi atinstalēts.</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox šobrīd ir palaists, bet to ir vajadzīgs aizvērt pirms Cloudstrap atinstalēšanas. Vai jūs vēlaties aizvērt Roblox tagad?</value>
+    <value>Roblox šobrīd darbojas, taču pirms Nyxstrap atinstalēšanas tas ir jāaizver. Vai vēlaties aizvērt Roblox tagad?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
-    <value>Roblox funkcionēšanai ir vajadzīga Windows Media Foundation komponentu izmantošana. Izskatās, ka jums tie nav, visdrīzāk, jo jūs izmantojat N Windows versiju. Lūdzu instalējot tos   un tad atveriet Roblox.</value>
+    <value>Roblox darbībai ir nepieciešams Windows Media Foundation. Izskatās, ka šī komponenta trūkst (iespējams, izmantojat Windows 'N' versiju). Lūdzu, instalējiet to un mēģiniet vēlreiz.</value>
   </data>
   <data name="Common.AddSingle" xml:space="preserve">
-    <value>Pievienot vienu</value>
+    <value>Pievienot</value>
   </data>
   <data name="Common.Browse" xml:space="preserve">
     <value>Pārlūkot</value>
@@ -133,9 +130,6 @@
   <data name="Common.Delete" xml:space="preserve">
     <value>Dzēst</value>
   </data>
-  <data name="Common.DiscordRichPresence" xml:space="preserve">
-    <value>Discord Rich Presence</value>
-  </data>
   <data name="Common.Help" xml:space="preserve">
     <value>Palīdzība</value>
   </data>
@@ -143,7 +137,7 @@
     <value>Importēt JSON</value>
   </data>
   <data name="Common.OpenLogFile" xml:space="preserve">
-    <value>Atvērt žurnāla failu</value>
+    <value>Atvērt žurnālu (log failu)</value>
   </data>
   <data name="Common.Miscellaneous" xml:space="preserve">
     <value>Dažādi</value>
@@ -161,11 +155,10 @@
     <value>OK</value>
   </data>
   <data name="Common.Presets" xml:space="preserve">
-    <value>Priekšiestatījumi</value>
+    <value>Sākotnējie iestatījumi</value>
   </data>
   <data name="Common.Reset" xml:space="preserve">
     <value>Atiestatīt</value>
-    <comment>In the context of resetting something to a default value</comment>
   </data>
   <data name="Common.Value" xml:space="preserve">
     <value>Vērtība</value>
@@ -180,23 +173,23 @@
     <value>Aizvērt Roblox</value>
   </data>
   <data name="ContextMenu.CloseRobloxMessage" xml:space="preserve">
-    <value>Vai jūs esat pārliecināts, ka vēlaties aizvērt Roblox? Šis piespiedu kārtā beigs procesu.</value>
+    <value>Vai tiešām vēlaties aizvērt Roblox? Process tiks pārtraukts piespiedu kārtā.</value>
   </data>
   <data name="ContextMenu.CopyDeeplinkInvite" xml:space="preserve">
-    <value>Kopēt ielūguma dziļsaiti</value>
+    <value>Kopēt ielūguma saiti (deeplink)</value>
   </data>
   <data name="ContextMenu.ServerInformation.CopyInstanceId" xml:space="preserve">
-    <value>Kopēt loga ID</value>
+    <value>Kopēt instances ID</value>
   </data>
   <data name="ContextMenu.ServerInformation.InstanceId" xml:space="preserve">
-    <value>Loga ID</value>
+    <value>Instances ID</value>
   </data>
   <data name="ContextMenu.ServerInformation.Location" xml:space="preserve">
     <value>Atrašanās vieta</value>
   </data>
   <data name="ContextMenu.ServerInformation.Notification.Text" xml:space="preserve">
     <value>Atrašanās vieta: {0}
-Spiedied šeit priekš vairāk informācijas</value>
+    Nospiediet šeit, lai uzzinātu vairāk</value>
   </data>
   <data name="ContextMenu.ServerInformation.Notification.Title.Public" xml:space="preserve">
     <value>Savienots ar publisku serveri</value>
@@ -205,69 +198,71 @@ Spiedied šeit priekš vairāk informācijas</value>
     <value>Servera informācija</value>
   </data>
   <data name="ContextMenu.ServerInformation.Type" xml:space="preserve">
-    <value>Veids</value>
+    <value>Tips</value>
   </data>
   <data name="Dialog.AddFastFlag.Title" xml:space="preserve">
-    <value>Pievienot Ātro Karogu</value>
+    <value>Pievienot Fast Flag</value>
   </data>
   <data name="Dialog.Connectivity.MoreInfo" xml:space="preserve">
-    <value>Vairāk informācija:</value>
+    <value>Papildinformācija:</value>
   </data>
   <data name="Dialog.Connectivity.Title" xml:space="preserve">
     <value>Savienojuma kļūda</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Cloudstrap nespēj savienoties ar {0}</value>
-    <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
+    <value>Nyxstrap nevar savienoties ar {0}</value>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kopēt žurnāla saturu</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Notika izņēmums palaižot Cloudstrap</value>
+    <value>Nyxstrap darbībā radās kļūda (izņēmums)</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
-    <value>Pārbaudiet [Cloudstrap Vikipēdiju]({0}), lai redzētu vai šai problēmai jau ir atrasts risinājums.
-Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzās ar žurnāla faila kopiju, kas tika izveidota.</value>
+    <value>Pārbaudiet [Nyxstrap Wiki]({0}), lai redzētu, vai šai problēmai jau ir atrasts risinājums.
+    Ja nē, lūdzu, ziņojiet par kļūdu [GitHub krātuvē]({1}), pievienojot izveidoto žurnālu (log failu).</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Cloudstrap Izņēmums</value>
+    <value>Nyxstrap kļūda</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Pielāgots</value>
   </data>
   <data name="Enums.BootstrapperIcon.IconEarly2015" xml:space="preserve">
-    <value>Agrais 2015</value>
+    <value>2015. gada sākums</value>
   </data>
   <data name="Enums.BootstrapperIcon.IconLate2015" xml:space="preserve">
-    <value>Vēlais 2015</value>
+    <value>2015. gada beigas</value>
+  </data>
+  <data name="Enums.BootstrapperStyle.CustomTheme" xml:space="preserve">
+    <value>Nyxstrap</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Cloudstrap (Klasiskais)</value>
+    <value>Nyxstrap (Klasiskais)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Cloudstrap (Stikls)</value>
+    <value>Nyxstrap (Stikls)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
-    <value>Vēsturisks (2008 - 2011)</value>
+    <value>Vēsturiskais (2008–2011)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2011" xml:space="preserve">
-    <value>Vēsturisks (2011 - 2014)</value>
+    <value>Vēsturiskais (2011–2014)</value>
   </data>
   <data name="Enums.BootstrapperStyle.ProgressDialog" xml:space="preserve">
     <value>Roblox (~2014)</value>
   </data>
   <data name="Enums.BootstrapperStyle.VistaDialog" xml:space="preserve">
-    <value>Vista (2008 - 2011)</value>
+    <value>Vista (2008–2011)</value>
   </data>
   <data name="Enums.CursorType.From2006" xml:space="preserve">
     <value>2006 (Komikss)</value>
   </data>
   <data name="Enums.CursorType.From2013" xml:space="preserve">
-    <value>2013 (Leņķisks)</value>
+    <value>2013</value>
   </data>
   <data name="Enums.EmojiType.Catmoji" xml:space="preserve">
-    <value>Kaķumoji</value>
+    <value>Catmoji</value>
   </data>
   <data name="Enums.EmojiType.Default" xml:space="preserve">
     <value>Noklusējuma (Twemoji)</value>
@@ -291,16 +286,16 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>2023 (V4)</value>
   </data>
   <data name="Enums.FlagPresets.LightingMode.Default" xml:space="preserve">
-    <value>Izvēlēts pēc spēles</value>
+    <value>Spēles noklusējuma</value>
   </data>
   <data name="Enums.FlagPresets.LightingMode.Future" xml:space="preserve">
-    <value>Nākotne (3. Fāze)</value>
+    <value>Future (3. fāze)</value>
   </data>
   <data name="Enums.FlagPresets.LightingMode.ShadowMap" xml:space="preserve">
-    <value>Ēnu Karte (2. Fāze)</value>
+    <value>Shadow Map (2. fāze)</value>
   </data>
   <data name="Enums.FlagPresets.LightingMode.Voxel" xml:space="preserve">
-    <value>Vokselis (1. Fāze)</value>
+    <value>Voxel (1. fāze)</value>
   </data>
   <data name="Enums.FlagPresets.RenderingMode.D3D10" xml:space="preserve">
     <value>Direct3D 10</value>
@@ -309,43 +304,43 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>Direct3D 11</value>
   </data>
   <data name="Enums.ServerType.Private" xml:space="preserve">
-    <value>Privātais serveris</value>
+    <value>Privāts serveris</value>
   </data>
   <data name="Enums.ServerType.Public" xml:space="preserve">
-    <value>Publiskais serveris</value>
+    <value>Publisks serveris</value>
   </data>
   <data name="Enums.ServerType.Reserved" xml:space="preserve">
     <value>Rezervēts serveris</value>
   </data>
   <data name="Enums.Theme.Dark" xml:space="preserve">
-    <value>Tumšs</value>
+    <value>Tumšā</value>
   </data>
   <data name="Enums.Theme.Light" xml:space="preserve">
-    <value>Gaišs</value>
+    <value>Gaišā</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Cloudstrap ir ticis jaunināts uz v{0}</value>
+    <value>Nyxstrap ir atjaunināts uz v{0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Tā Cloudstrap versija, ko tu esi atvēris, ir atšķirīga tai versijai, kas tev šobrīd ir instalēta. Vai tu vēlies jaunināt savu pašreiz instalēto versiju?</value>
+    <value>Atvērtā Nyxstrap versija atšķiras no tās, kas ir instalēta sistēmā. Vai vēlaties atjaunināt instalēto versiju?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
-    <value>Līdzstrādnieki</value>
+    <value>Atbalstītāji</value>
   </data>
   <data name="Menu.About.Contributors.Code" xml:space="preserve">
-    <value>Kods</value>
+    <value>Programmatūras kods</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Šie ir tie cilvēki, kas ir devuši ievērojamu ieguldījumu Cloudstrap, palīdzot izveidot to tādu, kāds tas ir.</value>
+    <value>Šie cilvēki ir snieguši būtisku ieguldījumu Nyxstrap attīstībā.</value>
   </data>
   <data name="Menu.About.Contributors.FeatureIdeas" xml:space="preserve">
-    <value>Funkciju Idejas</value>
+    <value>Funkciju idejas</value>
   </data>
   <data name="Menu.About.Contributors.SpecialThanks" xml:space="preserve">
-    <value>Īpašs Paldies</value>
+    <value>Īpašs paldies</value>
   </data>
   <data name="Menu.About.Description" xml:space="preserve">
-    <value>Alternatīvs palaišanas ielādētājs priekš Roblox, ar daudz papildus funkcijām.</value>
+    <value>Alternatīvs Roblox palaidējs ar paplašinātu funkcionalitāti.</value>
   </data>
   <data name="Menu.About.DiscordServer" xml:space="preserve">
     <value>Discord serveris</value>
@@ -354,38 +349,31 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>GitHub krātuve</value>
   </data>
   <data name="Menu.About.HelpInformation" xml:space="preserve">
-    <value>Palīdzība un Informācija</value>
+    <value>Palīdzība un informācija</value>
   </data>
   <data name="Menu.About.Licenses" xml:space="preserve">
     <value>Licences</value>
   </data>
-  <data name="Menu.About.Licenses.BSD2" xml:space="preserve">
-    <value>BSD 2-Clause Licence</value>
-  </data>
-  <data name="Menu.About.Licenses.MIT" xml:space="preserve">
-    <value>MIT Licence</value>
-  </data>
   <data name="Menu.About.ReportIssue" xml:space="preserve">
-    <value>Ziņot par problēmu</value>
+    <value>Ziņot par kļūdu</value>
   </data>
   <data name="Menu.About.Title" xml:space="preserve">
-    <value>Par</value>
+    <value>Par Nyxstrap</value>
   </data>
   <data name="Menu.About.Version" xml:space="preserve">
     <value>Versija {0}</value>
-    <comment>{0} is replaced with the version, i.e. "Version 2.8.0"</comment>
   </data>
   <data name="Menu.AllFiles" xml:space="preserve">
     <value>Visi faili</value>
   </data>
   <data name="Menu.AlreadyRunning.Caption" xml:space="preserve">
-    <value>Lūdzu ņemiet vērā, ka visas izmaiņas netiks piemērotas, kamēr jūs neaizvērsiet visus šobrīd atvērtos Roblox logus.</value>
+    <value>Lūdzu, ņemiet vērā: izmaiņas netiks piemērotas, kamēr nebūs aizvērtas visas aktīvās Roblox instances.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Cloudstrap jau ir atvērts</value>
+    <value>Nyxstrap jau darbojas</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
-    <value>Tu vari likt tam izskatīties citādāk, retro, vai pat līdzīgu Roblox.</value>
+    <value>Pielāgojiet palaidēja izskatu — izvēlieties modernu, retro vai Roblox oriģinālo stilu.</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Title" xml:space="preserve">
     <value>Palaišanas Ielādētājs</value>
@@ -409,7 +397,7 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>Virsraksts</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Konfigurēt, kā Cloudstrap būtu jaizskatas.</value>
+    <value>Konfigurēt, kā Nyxstrap būtu jaizskatas.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Globālā Tēma</value>
@@ -433,10 +421,10 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>Izskats</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Cloudstrap automātiski pārbaudīs un atjauninās sevi, kad Roblox tiek palaists.</value>
+    <value>Nyxstrap automātiski pārbaudīs un atjauninās sevi, kad Roblox tiek palaists.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Automātiski jaunināt Cloudstrap</value>
+    <value>Automātiski jaunināt Nyxstrap</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Nepieļaut esošās spēles aizvēršanu no nejaušas jaunas palaišanas.</value>
@@ -445,7 +433,7 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu caur [GitHub issue]({1}) līdzā
     <value>Parādīt uzvedni, lai apstiprinātu, kad palaižot jaunu Roblox logu</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Konfigurēt, ko Cloudstrap darīt, kad Roblox tiek palaists.</value>
+    <value>Konfigurēt, ko Nyxstrap darīt, kad Roblox tiek palaists.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox tiks no jauna instalēts nākošajā palaišanas reizē.</value>
@@ -546,10 +534,10 @@ Vai jūs esat pārliecināts, ka vēlaties turpināt?</value>
     <value>Ikonu faili</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Cloudstrap nevar tikt instalēts šajā vietā. Lūdzu izvēlēties citu vietu, vai izmantojat noklusēja vietu, spiežot atiestatīšanas pogu.</value>
+    <value>Nyxstrap nevar tikt instalēts šajā vietā. Lūdzu izvēlēties citu vietu, vai izmantojat noklusēja vietu, spiežot atiestatīšanas pogu.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Mape, kurā jūs esat izvēlējies instalēt Cloudstrap jau kaut kas eksistē un tā NAV tukša. Ir stipri ieteicams Cloudstrap instalēt savā patstāvīgajā mapē.
+    <value>Mape, kurā jūs esat izvēlējies instalēt Nyxstrap jau kaut kas eksistē un tā NAV tukša. Ir stipri ieteicams Nyxstrap instalēt savā patstāvīgajā mapē.
 Mainīt ir ieteicams uz šo vietu:
 {0}
 Vai jūs vēlaties mainīt mapi uz šo ieteikto vietu?
@@ -560,7 +548,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Jums ir nepieciešams izvēlēties instalēšanas vietu</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Cloudstrap nav piekļuva rakstīšanai tajā instalēšanas vietā, ko esat izvēlējušies. Lūdzu izvēleties citu vietu.</value>
+    <value>Nyxstrap nav piekļuva rakstīšanai tajā instalēšanas vietā, ko esat izvēlējušies. Lūdzu izvēleties citu vietu.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Aktivitātes izsekošana</value>
@@ -611,7 +599,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Neiziet uz darbavirsmas aplikāciju</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Ļauj Cloudstrap noteikt, kuru Roblox spēli jūs spēlējat. Dažām funkcijām šis var būt vajadzīgs.</value>
+    <value>Ļauj Nyxstrap noteikt, kuru Roblox spēli jūs spēlējat. Dažām funkcijām šis var būt vajadzīgs.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Iespējot aktivitātes izsekošanu</value>
@@ -702,7 +690,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Iestatījumi saglabāti!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Cloudstrap Iestatījumi</value>
+    <value>Nyxstrap Iestatījumi</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Izvēlieties vēlamo valodu</value>
@@ -726,7 +714,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Lietotāja Interfeiss un Izkārtojums</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Ļaut Cloudstrap pārvaldīt Ātros Karogus</value>
+    <value>Ļaut Nyxstrap pārvaldīt Ātros Karogus</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Ja jūs šo atspējosiet, nekas kas ir ticis šeit konfigurēts netiks pielietots Roblox.</value>
@@ -738,7 +726,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Aptur to no parādīšanās, kad jūs novietojiet savu peli ekrāna augšdaļā.</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Cloudstrap nespēj lejupielādēt Roblox</value>
+    <value>Nyxstrap nespēj lejupielādēt Roblox</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox šobrīd nevar tikt lejupielādēts. Lūdzu izlasiet sekojošo palīdzības lapu priekš vairāk informācijas: {0}</value>
@@ -759,7 +747,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>{0} Ieraksts nav derīgs, jo vērtībai vajag būt skaitlim</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Šai palaišanai nebūs žurnāla fails, jo Cloudstrap nav iespējams rakstīt mapē '{0}'</value>
+    <value>Šai palaišanai nebūs žurnāla fails, jo Nyxstrap nav iespējams rakstīt mapē '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Noklusējums</value>
@@ -774,7 +762,7 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>{0} Ieraksts nav derīgs, jo vietas filtrs nav pareizi formatēts.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Cloudstrap Instalētājs</value>
+    <value>Nyxstrap Instalētājs</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Sveicināti</value>
@@ -793,16 +781,16 @@ Izvēloties 'Nē' šis brīdinājums tiks ignorēts un instalēšana tiks turpin
     <value>Nākošais</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Paldies, ka lejupielādējāt Cloudstrap.
-Vienīgās oficiālās vietnes, no kurām lejupielādēt Cloudstrap ir {0} un {1}, tāpēc lūdzu pārbaudiet vai jūs ielādējāt Cloudstrap no oficiāla avota.
-Šis instalēšans process būs ātrs un vienkāršs, un jūs varēsiet konfigurēt jebkuru no Cloudstrap iestatījumiem pēc instalācijas.</value>
+    <value>Paldies, ka lejupielādējāt Nyxstrap.
+Vienīgās oficiālās vietnes, no kurām lejupielādēt Nyxstrap ir {0} un {1}, tāpēc lūdzu pārbaudiet vai jūs ielādējāt Nyxstrap no oficiāla avota.
+Šis instalēšans process būs ātrs un vienkāršs, un jūs varēsiet konfigurēt jebkuru no Nyxstrap iestatījumiem pēc instalācijas.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Lūdzu spiedied uz 'Nākamais', lai turpinātu.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Jūs cenšaties instalēt Cloudstrap versiju {0}, bet jaunākā versija ir iegūstama {1}. Vai jūs vēlaties to lejupielādēt?</value>
+    <value>Jūs cenšaties instalēt Nyxstrap versiju {0}, bet jaunākā versija ir iegūstama {1}. Vai jūs vēlaties to lejupielādēt?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Izvēlieties vietu, kur instalēt</value>
@@ -823,14 +811,14 @@ Vienīgās oficiālās vietnes, no kurām lejupielādēt Cloudstrap ir {0} un {1
     <value>Sākuma Izvēlnes ikona</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Cloudstrap ir ticis veiksmīgi instalēts.
-Roblox vēl nav ticis instalēts, tas notiks, kad jūs to palaidīsiet ar Cloudstrap pirmo reizi. Bet, pirms jūs to darat, jūs varētu vēlēties konfigurēt Cloudstrap iestatījumus vispirms.
-Neizmantojat "Roblox Player" īsceļu, lai atvērtu Roblox, jo Cloudstrap nepalaidīsies kopā ar Roblox. 
-Ja neredzat Cloudstrap parādāmies, kad palaižat Roblox no mājaslapas, vienkārši vienreiz palaižat Roblox ar Cloudstrap no darbavirsmas, lai šo problēmu salabotu.
+    <value>Nyxstrap ir ticis veiksmīgi instalēts.
+Roblox vēl nav ticis instalēts, tas notiks, kad jūs to palaidīsiet ar Nyxstrap pirmo reizi. Bet, pirms jūs to darat, jūs varētu vēlēties konfigurēt Nyxstrap iestatījumus vispirms.
+Neizmantojat "Roblox Player" īsceļu, lai atvērtu Roblox, jo Nyxstrap nepalaidīsies kopā ar Roblox. 
+Ja neredzat Nyxstrap parādāmies, kad palaižat Roblox no mājaslapas, vienkārši vienreiz palaižat Roblox ar Nyxstrap no darbavirsmas, lai šo problēmu salabotu.
 Ko tu vēlies darīt?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Konfigurēt Cloudstrap iestatījumus</value>
+    <value>Konfigurēt Nyxstrap iestatījumus</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Mainīt un izmantot visas funkcijas, kas ir pieejamas</value>
@@ -842,19 +830,19 @@ Ko tu vēlies darīt?</value>
     <value>Jūs tiksiet ielikti darbavirsmas aplikācijā, kad viss būs gatavs</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Atinstalēt Cloudstrap</value>
+    <value>Atinstalēt Nyxstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Atinstalējot, Cloudstrap tiks izņemts no jūsu sistēmas, un automātiski rekonfigurēs Roblox uz noklusējuma palaidēju, ja tas vēl ir ielādēts.
+    <value>Atinstalējot, Nyxstrap tiks izņemts no jūsu sistēmas, un automātiski rekonfigurēs Roblox uz noklusējuma palaidēju, ja tas vēl ir ielādēts.
 Ja jūs atinstalējat vai pārinstalējat, jo jums ir problēms are Roblox, izlasiet [šo palīdzības lapu]({0}) vispirms.
-Atinstalēšans process varētu nebūt spējīgs pilnībā visu izdzēst, tāpēc jums vajadzēs manuāli dzēst pāri palikušos failus vietā, kur Cloudstrap bija instalēts.
-Cloudstrap tika instalēts "{1}".</value>
+Atinstalēšans process varētu nebūt spējīgs pilnībā visu izdzēst, tāpēc jums vajadzēs manuāli dzēst pāri palikušos failus vietā, kur Nyxstrap bija instalēts.
+Nyxstrap tika instalēts "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Paturēt manus iestatījumus un modifikācijas</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Tie atradīsies vietā, kur Cloudstrap tika instalēts, un automātiski tiks atgriezti, kad atkal instalēsiet Cloudstrap.</value>
+    <value>Tie atradīsies vietā, kur Nyxstrap tika instalēts, un automātiski tiks atgriezti, kad atkal instalēsiet Nyxstrap.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Atinstalēt</value>
@@ -875,18 +863,18 @@ Cloudstrap tika instalēts "{1}".</value>
     <value>Jums šobrīd nav instalēts WebView2 runtime. Dažas Roblox funkcijas nestrādās pareizi bez tā, piemēram, darbavirsmas aplikācija. Vai jūs vēlaties to lejupielādēt tagad?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Cloudstrap nespēja izveidot īsceļu priekš Darbavirsmas un Sākuma izvēlnes. Pamēģiniet tos uztaisīt caur iestatījumiem.</value>
+    <value>Nyxstrap nespēja izveidot īsceļu priekš Darbavirsmas un Sākuma izvēlnes. Pamēģiniet tos uztaisīt caur iestatījumiem.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
-    <value>Pārbaudiet [Cloudstrap Vikipēdija]({0}), lai redzētu vai šai problēmai jau ir risinājums.
-Ja nav, tad lūdzu ziņojiet par šo izņēmumu šī fork veidotājiem. NEZIŅOJIET par šo Cloudstrap GitHub issues sadaļā, jo šī ir neoficiāla uzbūve.</value>
+    <value>Pārbaudiet [Nyxstrap Vikipēdija]({0}), lai redzētu vai šai problēmai jau ir risinājums.
+Ja nav, tad lūdzu ziņojiet par šo izņēmumu šī fork veidotājiem. NEZIŅOJIET par šo Nyxstrap GitHub issues sadaļā, jo šī ir neoficiāla uzbūve.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Šie ir vispārēji īsceļi, kas atver multi-izvēļu izvēlni. Īsceļi priekš specifiskām funkcijām var tikt izveidoti vēlāk iestatījumos.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Konfigurē, kā Cloudstrap tiek palaists.</value>
+    <value>Konfigurē, kā Nyxstrap tiek palaists.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Vispārīgi</value>
@@ -923,7 +911,7 @@ Ja nav, tad lūdzu ziņojiet par šo izņēmumu šī fork veidotājiem. NEZIŅOJ
     <value>Jums ir nesaglabātas izmaiņas. Vai esat pārliecināts, ka gribat aizvērt bez saglabāšanas?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Tā Cloudstrap versija, kuru esat palaiduši, ir vecāka nekā versija, kas jums jau ir instalēta.
+    <value>Tā Nyxstrap versija, kuru esat palaiduši, ir vecāka nekā versija, kas jums jau ir instalēta.
 Var notikt problēmas un jūsu iestatījumi var tikt mainīti. Pārinstalācija ir ieteicama.
 Vai jūs esat drošs, ka vēlaties turpināt?</value>
   </data>
@@ -936,7 +924,7 @@ Vai jūs esat drošs, ka vēlaties turpināt?</value>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Priekš informācijas, kāpēc šis varētu notikt un kā to atrisināt, lūdzu lasiet [šo palīdzības rakstu]({0}).
 Pārbaudiet vai Roblox strādā ar [oriģinālo palaidēju]({1}).
-Ja nē, tad šī nav Cloudstrap problēma. Ja jā, tad skatiet palīdzības rakstu.</value>
+Ja nē, tad šī nav Nyxstrap problēma. Ja jā, tad skatiet palīdzības rakstu.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Nevarēja ielādet datus, dēļ tīkla kļūdas.</value>
@@ -972,11 +960,11 @@ Ja nē, tad šī nav Cloudstrap problēma. Ja jā, tad skatiet palīdzības raks
     <value>Šajā palaišanas reizē, Roblox netiks pārbaudīts priekš atjauninājumiem, un izmaiņas modifikācijām netiks pielietotas.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Tāpēc, ka Roblox vajag tikt instalētam vai jauninātam, Cloudstrap nevar turpināt.</value>
+    <value>Tāpēc, ka Roblox vajag tikt instalētam vai jauninātam, Nyxstrap nevar turpināt.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Cloudstrap jau ir ticis instalēts šajā vietā iepriekš un joprojām te atrodas, bet instalētājs nevar pārrakstīt veco izpildāmo failu.
-Lūdzu manuāli dzēsiet Cloudstrap.exe no instalēšanas vietas, vai pamēģiniet restartēt datoru, un tad vēlreiz mēģiniet instalēt.</value>
+    <value>Nyxstrap jau ir ticis instalēts šajā vietā iepriekš un joprojām te atrodas, bet instalētājs nevar pārrakstīt veco izpildāmo failu.
+Lūdzu manuāli dzēsiet Nyxstrap.exe no instalēšanas vietas, vai pamēģiniet restartēt datoru, un tad vēlreiz mēģiniet instalēt.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Nav pieejams</value>
@@ -988,7 +976,7 @@ Lūdzu manuāli dzēsiet Cloudstrap.exe no instalēšanas vietas, vai pamēģini
     <value>Konfigurēt aplikācijas parametrus, kā DPI mēroga uzvedība un [pilnekrāna optimizācijas]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox vēl nav ticis instalēts. Lūdzu atveriet Roblox izmantojot Cloudstrap vismaz vienu reizi, pirms cenšaties izmantot šo opciju.</value>
+    <value>Roblox vēl nav ticis instalēts. Lūdzu atveriet Roblox izmantojot Nyxstrap vismaz vienu reizi, pirms cenšaties izmantot šo opciju.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Vai jūs esat drošs, ka vēlaties atcelt instalāciju?</value>
@@ -1005,10 +993,10 @@ Lūdzu manuāli dzēsiet Cloudstrap.exe no instalēšanas vietas, vai pamēģini
     <value>Izvilkt Roblox ikonas uz mapi</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Ļauj jums izmantot Cloudstrap Roblox ikonas priekš jūsu īsceļiem. [Redzēt kā.]({0})</value>
+    <value>Ļauj jums izmantot Nyxstrap Roblox ikonas priekš jūsu īsceļiem. [Redzēt kā.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Cloudstrap nespēj rakstīt iekš Windows Registry. Visticamāk, antivīruss iejaucas un rada problēmas. Lūdzu pārbaudiet, vai nav nekas, kas varētu traucēt Cloudstrap darbībām.</value>
+    <value>Nyxstrap nespēj rakstīt iekš Windows Registry. Visticamāk, antivīruss iejaucas un rada problēmas. Lūdzu pārbaudiet, vai nav nekas, kas varētu traucēt Nyxstrap darbībām.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Atiestatīt visu uz noklusējumu</value>
@@ -1043,8 +1031,8 @@ Vai jūs vēlaties iespējot testēšanas režīmu?</value>
     <value>Pielāgot</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Cloudstrap centās jaunināt Roblox, bet nevarēja, jo Roblox faili vēl tiek izmantoti.
-Lūdzu aizveriet jebkuras aplikācijas, kas varētu izmantot Roblox failu un vēlreiz atveriet Cloudstrap.</value>
+    <value>Nyxstrap centās jaunināt Roblox, bet nevarēja, jo Roblox faili vēl tiek izmantoti.
+Lūdzu aizveriet jebkuras aplikācijas, kas varētu izmantot Roblox failu un vēlreiz atveriet Nyxstrap.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
   <data name="FileTypes.ZipArchive" xml:space="preserve">
@@ -1053,13 +1041,13 @@ Lūdzu aizveriet jebkuras aplikācijas, kas varētu izmantot Roblox failu un vē
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Eksportēt</value>
-    <comment>Currently used under the "Cloudstrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Nyxstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="App.OSDeprecation.Win7_81" xml:space="preserve">
     <value>Roblox vairs neatbalsta Windows 7 vai 8.1. Lai turpinātu spēlēt Roblox, lūdzu atjauniniet Windows uz 10 vai jaunāku.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Iegūst jaunāko Cloudstrap...</value>
+    <value>Iegūst jaunāko Nyxstrap...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Tukšs</value>
@@ -1218,7 +1206,7 @@ Lūdzu aizveriet jebkuras aplikācijas, kas varētu izmantot Roblox failu un vē
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Neizdevās uzstādīt pielāgotu palaišanas ielādētāju: {0}.
 Noklusējums uz {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Cloudstrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Nyxstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Neviena pielāgota tēma nav izvēlēta.</value>
@@ -1286,7 +1274,7 @@ Nav ieteicams, ja tev ir lēns internets. Vismaz 3GB ar brīvu vietu ir nepiecie
     <value>Rediģēt</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Par Cloudstrap</value>
+    <value>Par Nyxstrap</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Darbības laiks</value>
@@ -1307,11 +1295,11 @@ Darbības laiks: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Atspējot Roblox Crash Handler</value>
   </data>
-  <data name="Menu.Integrations.ShowCloudstrapRPC.Description" xml:space="preserve">
-    <value>Iespējojiet šo funkciju, lai atvērtā lietotnē jūsu profilā tiktu parādīts pielāgots Cloudstrap Discord RPC.</value>
+  <data name="Menu.Integrations.ShowNyxstrapRPC.Description" xml:space="preserve">
+    <value>Iespējojiet šo funkciju, lai atvērtā lietotnē jūsu profilā tiktu parādīts pielāgots Nyxstrap Discord RPC.</value>
   </data>
-  <data name="Menu.Integrations.ShowCloudstrapRPC.Title" xml:space="preserve">
-    <value>Cloudstrap RPC</value>
+  <data name="Menu.Integrations.ShowNyxstrapRPC.Title" xml:space="preserve">
+    <value>Nyxstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Izvēlieties skaņu...</value>
@@ -1353,7 +1341,7 @@ Darbības laiks: {1}</value>
     <value>Kanāls</value>
   </data>
   <data name="Menu.Channel.Description" xml:space="preserve">
-    <value>Mainiet Roblox un Cloudstrap izvietošanas un instalēšanas iestatījumus.</value>
+    <value>Mainiet Roblox un Nyxstrap izvietošanas un instalēšanas iestatījumus.</value>
   </data>
   <data name="Common.Channel" xml:space="preserve">
     <value>Kanāls</value>
@@ -1419,7 +1407,7 @@ Darbības laiks: {1}</value>
     <value>Versijas hash</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Piespiediet Cloudstrap lejupielādēt versiju no konkrēta hash. Lūdzu, nemainiet, ja nezināt, ko tas dara.</value>
+    <value>Piespiediet Nyxstrap lejupielādēt versiju no konkrēta hash. Lūdzu, nemainiet, ja nezināt, ko tas dara.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Saglabāt un palaist</value>
@@ -1448,7 +1436,7 @@ Vai vēlaties pāriet uz noklusējuma kanālu ({1})?</value>
     <value>Automātiska kanālu maiņa</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox vai Cloudstrap var mēģināt mainīt jūsu izvēlēto kanālu.</value>
+    <value>Roblox vai Nyxstrap var mēģināt mainīt jūsu izvēlēto kanālu.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Mainīt automātiski</value>
@@ -1476,32 +1464,32 @@ Vai vēlaties mainīt savu vēlamo kanālu uz {0}?</value>
     <value>Norādītais kanāls vai nu nepastāv, vai ir privāts.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Neizdevās importēt Cloudstrap iestatījumus.
+    <value>Neizdevās importēt Nyxstrap iestatījumus.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Importēt iestatījumus no Cloudstrap</value>
+    <value>Importēt iestatījumus no Nyxstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Cloudstrap instalācija netika atrasta.</value>
+    <value>Nyxstrap instalācija netika atrasta.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Konfigurējiet opcijas, kas saistītas ar Cloudstrap darbību.</value>
+    <value>Konfigurējiet opcijas, kas saistītas ar Nyxstrap darbību.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Vāc informāciju, ko var augšupielādēt tiešsaistē, lai atrisinātu problēmu, ar kuru saskaries.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Cloudstrap konfigurācija</value>
+    <value>Nyxstrap konfigurācija</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Visi Cloudstrap žurnāli</value>
+    <value>Visi Nyxstrap žurnāli</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Tīrītājs</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Cloudstrap izdzēsīs vecos datus, lai ietaupītu vietu</value>
+    <value>Nyxstrap izdzēsīs vecos datus, lai ietaupītu vietu</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Nekad</value>
@@ -1537,16 +1525,16 @@ Vai vēlaties mainīt savu vēlamo kanālu uz {0}?</value>
     <value>Vecie žurnālu faili tiks dzēsti.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Cloudstrap žurnāli</value>
+    <value>Nyxstrap žurnāli</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Cloudstrap žurnāli tiks dzēsti.</value>
+    <value>Nyxstrap žurnāli tiks dzēsti.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags ir uz laiku atspējots</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Lai iegūtu vairāk informācijas, pievienojies Cloudstrap Discord serverim.</value>
+    <value>Lai iegūtu vairāk informācijas, pievienojies Nyxstrap Discord serverim.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Gaidot datus</value>
@@ -1588,7 +1576,7 @@ Vai vēlaties mainīt savu vēlamo kanālu uz {0}?</value>
     <value>Vispārējie iestatījumi</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Spēles iestatījumus varat konfigurēt Cloudstrap izvēlnē.</value>
+    <value>Spēles iestatījumus varat konfigurēt Nyxstrap izvēlnē.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Pārredzamība</value>
@@ -1636,10 +1624,10 @@ Vai vēlaties mainīt savu vēlamo kanālu uz {0}?</value>
     <value>Izvēlieties FRM kvalitāti, ko Roblox izmantos.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Atļaujiet Cloudstrap piekļūt jūsu Roblox kontam</value>
+    <value>Atļaujiet Nyxstrap piekļūt jūsu Roblox kontam</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Nodrošiniet piekļuvi Roblox API, izmantojot savu autentifikācijas sīkfailu. [Kāda būs Cloudstrap piekļuve?]({0})</value>
+    <value>Nodrošiniet piekļuvi Roblox API, izmantojot savu autentifikācijas sīkfailu. [Kāda būs Nyxstrap piekļuve?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Atmiņas apgriezējs</value>

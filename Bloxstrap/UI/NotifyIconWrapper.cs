@@ -27,8 +27,8 @@ namespace Bloxstrap.UI
 
             _notifyIcon = new(new System.ComponentModel.Container())
             {
-                Icon = Properties.Resources.IconCloudstrap,
-                Text = "Cloudstrap",
+                Icon = Properties.Resources.IconNyxstrap,
+                Text = "Nyxstrap",
                 Visible = true
             };
 

@@ -173,9 +173,9 @@ namespace Bloxstrap.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        public static System.Drawing.Icon IconCloudstrap {
+        public static System.Drawing.Icon IconNyxstrap {
             get {
-                object obj = ResourceManager.GetObject("IconCloudstrap", resourceCulture);
+                object obj = ResourceManager.GetObject("IconNyxstrap", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

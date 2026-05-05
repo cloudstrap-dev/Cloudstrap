@@ -19,7 +19,7 @@ namespace Bloxstrap.Models.APIs.Config
         public bool KillFlags { get; set; } = false;
 
         [JsonPropertyName("deeplinkUrl")]
-        public string DeeplinkUrl { get; set; } = "https://itzbloxxy.github.io/Cloudstrap-website/";
+        public string DeeplinkUrl { get; set; } = "https://itzbloxxy.github.io/Nyxstrap-website/";
 
         // package maps
         [JsonPropertyName("packageMaps")]

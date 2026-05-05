@@ -70,7 +70,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About Cloudstrap.
+        ///   Looks up a localized string similar to About Nyxstrap.
         /// </summary>
         public static string About_Title {
             get {
@@ -115,7 +115,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap was unable to automatically update to version {0}. Please update it manually by downloading and running it from the website..
+        ///   Looks up a localized string similar to Nyxstrap was unable to automatically update to version {0}. Please update it manually by downloading and running it from the website..
         /// </summary>
         public static string Bootstrapper_AutoUpdateFailed {
             get {
@@ -183,7 +183,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap tried to upgrade Roblox but can&apos;t because Roblox&apos;s files are still in use.
+        ///   Looks up a localized string similar to Nyxstrap tried to upgrade Roblox but can&apos;t because Roblox&apos;s files are still in use.
         ///
         ///Please close any applications that may be using Roblox&apos;s files, and relaunch..
         /// </summary>
@@ -194,7 +194,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You must first install Cloudstrap before uninstalling..
+        ///   Looks up a localized string similar to You must first install Nyxstrap before uninstalling..
         /// </summary>
         public static string Bootstrapper_FirstRunUninstall {
             get {
@@ -230,7 +230,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap does not have enough disk space to download and install Roblox. Please free up some disk space and try again..
+        ///   Looks up a localized string similar to Nyxstrap does not have enough disk space to download and install Roblox. Please free up some disk space and try again..
         /// </summary>
         public static string Bootstrapper_NotEnoughSpace {
             get {
@@ -320,7 +320,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Getting the latest Cloudstrap....
+        ///   Looks up a localized string similar to Getting the latest Nyxstrap....
         /// </summary>
         public static string Bootstrapper_Status_UpgradingBloxstrap {
             get {
@@ -365,7 +365,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap has successfully uninstalled.
+        ///   Looks up a localized string similar to Nyxstrap has successfully uninstalled.
         /// </summary>
         public static string Bootstrapper_SuccessfullyUninstalled {
             get {
@@ -374,7 +374,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Cloudstrap. Would you like to close Roblox now?.
+        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Nyxstrap. Would you like to close Roblox now?.
         /// </summary>
         public static string Bootstrapper_Uninstall_RobloxRunning {
             get {
@@ -779,7 +779,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox has not yet been installed. Please launch Roblox using Cloudstrap at least once before trying to use this option..
+        ///   Looks up a localized string similar to Roblox has not yet been installed. Please launch Roblox using Nyxstrap at least once before trying to use this option..
         /// </summary>
         public static string Common_RobloxNotInstalled {
             get {
@@ -1556,7 +1556,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap was unable to create shortcuts for the Desktop and Start menu. Try creating them later through the settings..
+        ///   Looks up a localized string similar to Nyxstrap was unable to create shortcuts for the Desktop and Start menu. Try creating them later through the settings..
         /// </summary>
         public static string Dialog_CannotCreateShortcuts {
             get {
@@ -1565,7 +1565,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A connection could not be made, which likely indicates a poor internet connection or a firewall block. If your connection is fine, please ensure that your antivirus isn&apos;t blocking Cloudstrap..
+        ///   Looks up a localized string similar to A connection could not be made, which likely indicates a poor internet connection or a firewall block. If your connection is fine, please ensure that your antivirus isn&apos;t blocking Nyxstrap..
         /// </summary>
         public static string Dialog_Connectivity_BadConnection {
             get {
@@ -1601,7 +1601,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Because Roblox needs to be installed or upgraded, Cloudstrap cannot continue..
+        ///   Looks up a localized string similar to Because Roblox needs to be installed or upgraded, Nyxstrap cannot continue..
         /// </summary>
         public static string Dialog_Connectivity_RobloxUpgradeNeeded {
             get {
@@ -1646,7 +1646,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap is unable to connect to {0}.
+        ///   Looks up a localized string similar to Nyxstrap is unable to connect to {0}.
         /// </summary>
         public static string Dialog_Connectivity_UnableToConnect {
             get {
@@ -1655,7 +1655,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap is unable to download Roblox.
+        ///   Looks up a localized string similar to Nyxstrap is unable to download Roblox.
         /// </summary>
         public static string Dialog_Connectivity_UnableToDownload {
             get {
@@ -1682,7 +1682,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An exception occurred while running Cloudstrap.
+        ///   Looks up a localized string similar to An exception occurred while running Nyxstrap.
         /// </summary>
         public static string Dialog_Exception_Info_1 {
             get {
@@ -1722,7 +1722,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap Exception.
+        ///   Looks up a localized string similar to Nyxstrap Exception.
         /// </summary>
         public static string Dialog_Exception_Title {
             get {
@@ -1790,7 +1790,7 @@ namespace Bloxstrap.Resources {
         /// <summary>
         ///   Looks up a localized string similar to For information about why this could be happening and how this can be resolved, please read [this help article]({0}).
         ///
-        ///Check if Roblox works with [the original launcher]({1}). If it doesn&apos;t, then this isn&apos;t a Cloudstrap issue. If it does, then refer to the help article..
+        ///Check if Roblox works with [the original launcher]({1}). If it doesn&apos;t, then this isn&apos;t a Nyxstrap issue. If it does, then refer to the help article..
         /// </summary>
         public static string Dialog_PlayerError_HelpInformation {
             get {
@@ -1799,7 +1799,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap is unable to write to the Windows Registry. An antivirus is likely interfering and causing issues. Please check to make sure there isn&apos;t anything that would restrict Cloudstrap&apos;s operation..
+        ///   Looks up a localized string similar to Nyxstrap is unable to write to the Windows Registry. An antivirus is likely interfering and causing issues. Please check to make sure there isn&apos;t anything that would restrict Nyxstrap&apos;s operation..
         /// </summary>
         public static string Dialog_RegistryWriteError {
             get {
@@ -1826,7 +1826,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap (Classic).
+        ///   Looks up a localized string similar to Nyxstrap (Classic).
         /// </summary>
         public static string Enums_BootstrapperStyle_ClassicFluentDialog {
             get {
@@ -1844,7 +1844,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap (Glass).
+        ///   Looks up a localized string similar to Nyxstrap (Glass).
         /// </summary>
         public static string Enums_BootstrapperStyle_FluentAeroDialog {
             get {
@@ -2186,7 +2186,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap has been upgraded to v{0}.
+        ///   Looks up a localized string similar to Nyxstrap has been upgraded to v{0}.
         /// </summary>
         public static string InstallChecker_Updated {
             get {
@@ -2195,7 +2195,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The version of Cloudstrap you&apos;ve launched is different to the version you currently have installed.
+        ///   Looks up a localized string similar to The version of Nyxstrap you&apos;ve launched is different to the version you currently have installed.
         ///Would you like to upgrade your currently installed version?.
         /// </summary>
         public static string InstallChecker_VersionDifferentThanInstalled {
@@ -2205,7 +2205,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The version of Cloudstrap you&apos;ve launched is older than the version you currently have installed.
+        ///   Looks up a localized string similar to The version of Nyxstrap you&apos;ve launched is older than the version you currently have installed.
         ///Issues may occur and your settings may be altered. A reinstall is recommended.
         ///Are you sure you want to continue?.
         /// </summary>
@@ -2243,7 +2243,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure Cloudstrap&apos;s settings.
+        ///   Looks up a localized string similar to Configure Nyxstrap&apos;s settings.
         /// </summary>
         public static string Installer_Completion_Settings_Title {
             get {
@@ -2252,11 +2252,11 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap has successfully been installed.
+        ///   Looks up a localized string similar to Nyxstrap has successfully been installed.
         ///
-        ///Roblox has not yet been installed, that will happen when you launch it with Cloudstrap for the first time. However, before you do that, you may want to configure Cloudstrap&apos;s settings first.
+        ///Roblox has not yet been installed, that will happen when you launch it with Nyxstrap for the first time. However, before you do that, you may want to configure Nyxstrap&apos;s settings first.
         ///
-        ///Also, avoid using the &quot;Roblox Player&quot; shortcut to launch Roblox, as Cloudstrap won&apos;t launch with Roblox. If you don&apos;t see Cloudstrap show when launching from the website, simply launch Roblox with Cloudstrap once from the desktop to fix it.
+        ///Also, avoid using the &quot;Roblox Player&quot; shortcut to launch Roblox, as Nyxstrap won&apos;t launch with Roblox. If you don&apos;t see Nyxstrap show when launching from the website, simply launch Roblox with Nyxstrap once from the desktop to fix it.
         ///
         ///What would you like t [rest of string was truncated]&quot;;.
         /// </summary>
@@ -2294,9 +2294,9 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap has been installed to this location before and is still present, however the installer cannot overwrite the old executable. 
+        ///   Looks up a localized string similar to Nyxstrap has been installed to this location before and is still present, however the installer cannot overwrite the old executable. 
         ///
-        ///Please manually delete Cloudstrap.exe from the install location or try restarting your system, and then retry installation afterwards..
+        ///Please manually delete Nyxstrap.exe from the install location or try restarting your system, and then retry installation afterwards..
         /// </summary>
         public static string Installer_Install_CannotOverwrite {
             get {
@@ -2368,7 +2368,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap Installer.
+        ///   Looks up a localized string similar to Nyxstrap Installer.
         /// </summary>
         public static string Installer_Title {
             get {
@@ -2377,11 +2377,11 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thank you for downloading Cloudstrap. 
+        ///   Looks up a localized string similar to Thank you for downloading Nyxstrap. 
         ///
-        ///The only official source to download Cloudstrap from is {0} so please verify that you got it from an official source.
+        ///The only official source to download Nyxstrap from is {0} so please verify that you got it from an official source.
         ///
-        ///This installation process will be quick and simple, and you will be able to configure any of Cloudstrap&apos;s settings after installation..
+        ///This installation process will be quick and simple, and you will be able to configure any of Nyxstrap&apos;s settings after installation..
         /// </summary>
         public static string Installer_Welcome_MainText {
             get {
@@ -2408,7 +2408,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are trying to install version {0} of Cloudstrap, but the latest version available is {1}. Would you like to download it?.
+        ///   Looks up a localized string similar to You are trying to install version {0} of Nyxstrap, but the latest version available is {1}. Would you like to download it?.
         /// </summary>
         public static string Installer_Welcome_UpdateNotice {
             get {
@@ -2489,7 +2489,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No log file will be written for this launch because Cloudstrap is unable to write to the folder at &apos;{0}&apos;.
+        ///   Looks up a localized string similar to No log file will be written for this launch because Nyxstrap is unable to write to the folder at &apos;{0}&apos;.
         /// </summary>
         public static string Logger_NoWriteMode {
             get {
@@ -2516,7 +2516,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to These are the people who have made notable contributions to Cloudstrap/Fishstrap/Bloxstrap, helping make it what it is..
+        ///   Looks up a localized string similar to These are the people who have made notable contributions to Nyxstrap/Fishstrap/Bloxstrap, helping make it what it is..
         /// </summary>
         public static string Menu_About_Contributors_Description {
             get {
@@ -2651,7 +2651,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap is already running.
+        ///   Looks up a localized string similar to Nyxstrap is already running.
         /// </summary>
         public static string Menu_AlreadyRunning_Title {
             get {
@@ -2777,7 +2777,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure how Cloudstrap should look..
+        ///   Looks up a localized string similar to Configure how Nyxstrap should look..
         /// </summary>
         public static string Menu_Appearance_Description {
             get {
@@ -2867,7 +2867,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap will automatically check and update itself when launching Roblox..
+        ///   Looks up a localized string similar to Nyxstrap will automatically check and update itself when launching Roblox..
         /// </summary>
         public static string Menu_Behaviour_AutoUpdate_Description {
             get {
@@ -2876,7 +2876,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Automatically update Cloudstrap.
+        ///   Looks up a localized string similar to Automatically update Nyxstrap.
         /// </summary>
         public static string Menu_Behaviour_AutoUpdate_Title {
             get {
@@ -2948,7 +2948,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure what Cloudstrap should do when launching Roblox..
+        ///   Looks up a localized string similar to Configure what Nyxstrap should do when launching Roblox..
         /// </summary>
         public static string Menu_Behaviour_Description {
             get {
@@ -3119,7 +3119,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure options related to Cloudstrap&apos;s behaviour itself..
+        ///   Looks up a localized string similar to Configure options related to Nyxstrap&apos;s behaviour itself..
         /// </summary>
         public static string Menu_Bloxstrap_Description {
             get {
@@ -3137,7 +3137,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap configuration.
+        ///   Looks up a localized string similar to Nyxstrap configuration.
         /// </summary>
         public static string Menu_Bloxstrap_ExportData_ExportConfig {
             get {
@@ -3146,7 +3146,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All Cloudstrap logs.
+        ///   Looks up a localized string similar to All Nyxstrap logs.
         /// </summary>
         public static string Menu_Bloxstrap_ExportData_ExportLogs {
             get {
@@ -3155,7 +3155,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Provide access to Roblox APIs using your authentication cookie. [What will Cloudstrap access?]({0}).
+        ///   Looks up a localized string similar to Provide access to Roblox APIs using your authentication cookie. [What will Nyxstrap access?]({0}).
         /// </summary>
         public static string Menu_Bootstrapper_AllowCookieAccess_Description {
             get {
@@ -3164,7 +3164,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allow Cloudstrap to access your Roblox account.
+        ///   Looks up a localized string similar to Allow Nyxstrap to access your Roblox account.
         /// </summary>
         public static string Menu_Bootstrapper_AllowCookieAccess_Title {
             get {
@@ -3209,7 +3209,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap logs will be deleted..
+        ///   Looks up a localized string similar to Nyxstrap logs will be deleted..
         /// </summary>
         public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Description {
             get {
@@ -3218,7 +3218,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap logs.
+        ///   Looks up a localized string similar to Nyxstrap logs.
         /// </summary>
         public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Title {
             get {
@@ -3245,7 +3245,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap will remove old data to save on space.
+        ///   Looks up a localized string similar to Nyxstrap will remove old data to save on space.
         /// </summary>
         public static string Menu_Bootstrapper_CleanUp_Description {
             get {
@@ -3272,7 +3272,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox or Cloudstrap may try to change your preferred channel..
+        ///   Looks up a localized string similar to Roblox or Nyxstrap may try to change your preferred channel..
         /// </summary>
         public static string Menu_Channel_ChangeAction_Description {
             get {
@@ -3308,7 +3308,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change deployment and installation settings for Roblox &amp; Cloudstrap..
+        ///   Looks up a localized string similar to Change deployment and installation settings for Roblox &amp; Nyxstrap..
         /// </summary>
         public static string Menu_Channel_Description {
             get {
@@ -3353,7 +3353,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Force Cloudstrap to download version from specific hash. Please do not change if you have no idea what this does..
+        ///   Looks up a localized string similar to Force Nyxstrap to download version from specific hash. Please do not change if you have no idea what this does..
         /// </summary>
         public static string Menu_Channel_VersionHash_Desription {
             get {
@@ -3667,7 +3667,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allow Cloudstrap to manage Fast Flags.
+        ///   Looks up a localized string similar to Allow Nyxstrap to manage Fast Flags.
         /// </summary>
         public static string Menu_FastFlags_ManagerEnabled_Title {
             get {
@@ -3829,7 +3829,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For more information join Cloudstrap Discord server.
+        ///   Looks up a localized string similar to For more information join Nyxstrap Discord server.
         /// </summary>
         public static string Menu_FastFlagsDisabled_Description {
             get {
@@ -3874,7 +3874,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set in-game settings from Cloudstrap menu..
+        ///   Looks up a localized string similar to Set in-game settings from Nyxstrap menu..
         /// </summary>
         public static string Menu_GBSEditor_Description {
             get {
@@ -4171,7 +4171,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap cannot be installed here. Please choose a different location, or resort to using the default location by clicking the reset button..
+        ///   Looks up a localized string similar to Nyxstrap cannot be installed here. Please choose a different location, or resort to using the default location by clicking the reset button..
         /// </summary>
         public static string Menu_InstallLocation_CantInstall {
             get {
@@ -4180,7 +4180,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The folder you&apos;ve chosen to install Cloudstrap to already exists and is NOT empty. It is strongly recommended for Cloudstrap to be installed to its own independent folder.
+        ///   Looks up a localized string similar to The folder you&apos;ve chosen to install Nyxstrap to already exists and is NOT empty. It is strongly recommended for Nyxstrap to be installed to its own independent folder.
         ///
         ///Changing to the following location is suggested:
         ///{0}
@@ -4204,7 +4204,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap does not have write access to the install location you&apos;ve selected. Please choose another location..
+        ///   Looks up a localized string similar to Nyxstrap does not have write access to the install location you&apos;ve selected. Please choose another location..
         /// </summary>
         public static string Menu_InstallLocation_NoWritePerms {
             get {
@@ -4339,7 +4339,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allows for Cloudstrap to detect what Roblox game you&apos;re playing. Certain features may require this..
+        ///   Looks up a localized string similar to Allows for Nyxstrap to detect what Roblox game you&apos;re playing. Certain features may require this..
         /// </summary>
         public static string Menu_Integrations_EnableActivityTracking_Description {
             get {
@@ -4420,20 +4420,20 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enable this to display a custom Cloudstrap Discord RPC on your profile while the app is open..
+        ///   Looks up a localized string similar to Enable this to display a custom Nyxstrap Discord RPC on your profile while the app is open..
         /// </summary>
-        public static string Menu_Integrations_ShowCloudstrapRPC_Description {
+        public static string Menu_Integrations_ShowNyxstrapRPC_Description {
             get {
-                return ResourceManager.GetString("Menu.Integrations.ShowCloudstrapRPC.Description", resourceCulture);
+                return ResourceManager.GetString("Menu.Integrations.ShowNyxstrapRPC.Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap RPC.
+        ///   Looks up a localized string similar to Nyxstrap RPC.
         /// </summary>
-        public static string Menu_Integrations_ShowCloudstrapRPC_Title {
+        public static string Menu_Integrations_ShowNyxstrapRPC_Title {
             get {
-                return ResourceManager.GetString("Menu.Integrations.ShowCloudstrapRPC.Title", resourceCulture);
+                return ResourceManager.GetString("Menu.Integrations.ShowNyxstrapRPC.Title", resourceCulture);
             }
         }
         
@@ -5035,7 +5035,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure how Cloudstrap can be readily launched..
+        ///   Looks up a localized string similar to Configure how Nyxstrap can be readily launched..
         /// </summary>
         public static string Menu_Shortcuts_Description {
             get {
@@ -5044,7 +5044,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allows you to use Cloudstrap&apos;s range of Roblox icons for your shortcuts..
+        ///   Looks up a localized string similar to Allows you to use Nyxstrap&apos;s range of Roblox icons for your shortcuts..
         /// </summary>
         public static string Menu_Shortcuts_ExtractIcons_Description {
             get {
@@ -5120,7 +5120,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cloudstrap Settings.
+        ///   Looks up a localized string similar to Nyxstrap Settings.
         /// </summary>
         public static string Menu_Title {
             get {
@@ -5147,7 +5147,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to They&apos;ll be kept where Cloudstrap was installed, and will automatically be restored on a reinstall..
+        ///   Looks up a localized string similar to They&apos;ll be kept where Nyxstrap was installed, and will automatically be restored on a reinstall..
         /// </summary>
         public static string Uninstaller_KeepData_Description {
             get {
@@ -5165,13 +5165,13 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uninstalling will remove Cloudstrap from your system, and automatically reconfigure the default Roblox launcher if it&apos;s still installed.
+        ///   Looks up a localized string similar to Uninstalling will remove Nyxstrap from your system, and automatically reconfigure the default Roblox launcher if it&apos;s still installed.
         ///
         ///If you&apos;re uninstalling or reinstalling because you are having issues with Roblox, read [this help page]({0}) first.
         ///
-        ///The uninstall process may not be able to fully clean up itself, so you may need to manually clean up leftover files where Cloudstrap was installed.
+        ///The uninstall process may not be able to fully clean up itself, so you may need to manually clean up leftover files where Nyxstrap was installed.
         ///
-        ///Cloudstrap was installed at &quot;{1}&quot;..
+        ///Nyxstrap was installed at &quot;{1}&quot;..
         /// </summary>
         public static string Uninstaller_Text {
             get {
@@ -5180,7 +5180,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uninstall Cloudstrap.
+        ///   Looks up a localized string similar to Uninstall Nyxstrap.
         /// </summary>
         public static string Uninstaller_Title {
             get {

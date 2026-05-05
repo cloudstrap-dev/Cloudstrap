@@ -25,26 +25,30 @@ public partial class ThemeService : IThemeService
 
         return systemTheme switch
         {
-            SystemThemeType.Light => ThemeType.Light,
+            SystemThemeType.Light => ThemeType.Dark,
             SystemThemeType.Dark => ThemeType.Dark,
             SystemThemeType.Glow => ThemeType.Dark,
             SystemThemeType.CapturedMotion => ThemeType.Dark,
-            SystemThemeType.Sunrise => ThemeType.Light,
-            SystemThemeType.Flow => ThemeType.Light,
-            _ => ThemeType.Unknown
+            SystemThemeType.Sunrise => ThemeType.Dark,
+            SystemThemeType.Flow => ThemeType.Dark,
+            _ => ThemeType.Dark
         };
     }
 
     /// <inheritdoc />
-    public virtual bool SetTheme(ThemeType themeType)
-    {
-        if (Wpf.Ui.Appearance.Theme.GetAppTheme() == themeType)
-            return false;
+        public virtual bool SetTheme(ThemeType themeType)
+        {
+            // If something tries to set Light, force it to Dark instead
+            if (themeType == ThemeType.Light)
+                themeType = ThemeType.Dark;
 
-        Wpf.Ui.Appearance.Theme.Apply(themeType);
+            if (Wpf.Ui.Appearance.Theme.GetAppTheme() == themeType)
+                return false;
 
-        return true;
-    }
+            Wpf.Ui.Appearance.Theme.Apply(themeType);
+
+            return true;
+        }
 
     /// <inheritdoc />
     public bool SetSystemAccent()

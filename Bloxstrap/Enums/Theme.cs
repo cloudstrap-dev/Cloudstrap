@@ -2,9 +2,13 @@
 {
     public enum Theme
     {
-        [EnumName(FromTranslation = "Common.SystemDefault")]
+        [EnumName(StaticName = "Nyxstrap")]
         Default,
         Light,
-        Dark
+        Dark,
+        Nyxstrap,
+        Golden,
+        Void
+
     }
 }

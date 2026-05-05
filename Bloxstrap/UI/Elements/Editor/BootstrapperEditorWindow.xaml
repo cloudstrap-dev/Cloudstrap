@@ -33,7 +33,7 @@
             Grid.Row="0"
             Padding="8"
             ForceShutdown="False"
-            Icon="pack://application:,,,/Cloudstrap.ico"
+            Icon="pack://application:,,,/Nyxstrap.ico"
             MinimizeToTray="False"
             UseSnapLayout="True" />
 

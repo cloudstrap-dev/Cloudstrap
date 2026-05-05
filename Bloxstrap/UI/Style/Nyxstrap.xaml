@@ -1,0 +1,41 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:base="clr-namespace:Voidstrap.UI.Elements.Base">
+    
+    <!-- Text Editor Styling -->
+    <SolidColorBrush x:Key="TextEditorBackgroundBrush" Color="#1A1A1C"/> <!-- Deep Graphite -->
+    <SolidColorBrush x:Key="TextEditorForegroundBrush" Color="#D1D1D1"/> <!-- Light Gray Text -->
+    <SolidColorBrush x:Key="TextEditorLinkBrush" Color="#2A5BB1"/>      <!-- Sharp Dark Blue Link -->
+
+    <!-- Background Layers -->
+    <SolidColorBrush x:Key="PrimaryBackgroundBrush" Color="#121214"/>   <!-- Deepest Gray -->
+    <SolidColorBrush x:Key="SecondaryBackgroundBrush" Color="#400A1421"/> <!-- semi-transparent Dark Blue tint -->
+    <SolidColorBrush x:Key="TertiaryBackgroundBrush" Color="#1E1E21"/>   <!-- Mid-tone Gray -->
+
+    <!-- Control Fills -->
+    <Color x:Key="ControlFillColor">#252528</Color>
+
+    <!-- The Dark Blue Gradient & Window Palette -->
+    <!-- Start: Deep Industrial Gray -->
+    <Color x:Key="WindowBackgroundColorPrimary">#2B2B2E</Color>
+    <!-- Mid: Muted Midnight Blue -->
+    <Color x:Key="WindowBackgroundColorSecondary">#0D1626</Color>
+    <!-- End: Deep Void Blue -->
+    <Color x:Key="WindowBackgroundColorTertiary">#050A14</Color>
+
+    <!-- Opacity variants for transparency effects -->
+    <Color x:Key="WindowBackgroundColorPrimaryWithOpacity">#CC2B2B2E</Color>
+    <Color x:Key="WindowBackgroundColorSecondaryWithOpacity">#CC0D1626</Color>
+    <Color x:Key="WindowBackgroundColorTertiaryWithOpacity">#CC050A14</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="WindowBackgroundBrushPrimary" Color="{StaticResource WindowBackgroundColorPrimary}" />
+    <SolidColorBrush x:Key="WindowBackgroundBrushSecondary" Color="{StaticResource WindowBackgroundColorSecondary}" />
+    <SolidColorBrush x:Key="WindowBackgroundBrushTertiary" Color="{StaticResource WindowBackgroundColorTertiary}" />
+
+    <!-- Foreground / Text Colors -->
+    <SolidColorBrush x:Key="PrimaryForegroundBrush" Color="#E5E5E5"/>   <!-- High Contrast Gray -->
+    <SolidColorBrush x:Key="SecondaryForegroundBrush" Color="#A5ABB5"/> <!-- Blue-ish Muted Gray -->
+    <SolidColorBrush x:Key="TertiaryForegroundBrush" Color="#6C727D"/>  <!-- Low Contrast Industrial Gray -->
+    
+</ResourceDictionary>

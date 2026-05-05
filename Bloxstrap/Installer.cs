@@ -112,7 +112,7 @@ namespace Bloxstrap
             if (ImportSettings)
             {
                 // we dont have to worry about directories messing up
-                // if something doenst exist Cloudstrap will recreate the file/directory
+                // if something doenst exist Nyxstrap will recreate the file/directory
                 try
                 {
                     ImportSettingsFromBloxstrap();
@@ -513,7 +513,7 @@ namespace Bloxstrap
 
                 if (IsDirectory)
                 {
-                    // delete existing file from Cloudstrap folder
+                    // delete existing file from Nyxstrap folder
                     string ExistingFile = Path.Combine(InstallLocation, FileName);
                     if (Directory.Exists(ExistingFile))
                     {

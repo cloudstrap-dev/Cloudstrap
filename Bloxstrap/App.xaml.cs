@@ -1,10 +1,22 @@
-using Bloxstrap.Integrations;
-using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Reflection;
 using System.Security.Cryptography;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Shell;
 using System.Windows.Threading;
+
+using Microsoft.Win32;
+
+using Bloxstrap.Integrations;
+using Bloxstrap.Utility;
 
 namespace Bloxstrap
 {
@@ -13,12 +25,12 @@ namespace Bloxstrap
     /// </summary>
     public partial class App : Application
     {
-        public const string ProjectName = "Cloudstrap";
-        public const string ProjectOwner = "cloudstrap-dev";
-        public const string ProjectRepository = "cloudstrap-dev/Cloudstrap";
-        public const string ProjectDownloadLink = "https://github.com/cloudstrap-dev/Cloudstrap/releases";
+        public const string ProjectName = "Nyxstrap";
+        public const string ProjectOwner = "nyxstrap";
+        public const string ProjectRepository = "nyxstrap/Nyxstrap";
+        public const string ProjectDownloadLink = "https://github.com/nyxstrap/Nyxstrap/releases";
         public const string ProjectHelpLink = "https://github.com/bloxstraplabs/bloxstrap/wiki";
-        public const string ProjectSupportLink = "https://github.com/cloudstrap-dev/Cloudstrap/issues/new";
+        public const string ProjectSupportLink = "https://github.com/nyxstrap/Nyxstrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta.exe";
         public const string RobloxStudioAppName = "RobloxStudioBeta.exe";
@@ -34,7 +46,7 @@ namespace Bloxstrap
 
         public static Bootstrapper? Bootstrapper { get; set; } = null!;
 
-        public CloudstrapRichPresence RichPresence { get; private set; } = null!;
+        public NyxstrapRichPresence RichPresence { get; private set; } = null!;
 
         public static bool IsActionBuild => !string.IsNullOrEmpty(BuildMetadata.CommitRef);
 
@@ -122,7 +134,7 @@ namespace Bloxstrap
             Terminate(ErrorCode.ERROR_INSTALL_FAILURE);
         }
 
-        public static CloudstrapRichPresence? CloudRPC
+        public static NyxstrapRichPresence? CloudRPC
         {
             get => (Current as App)?.RichPresence;
             set
@@ -278,7 +290,6 @@ namespace Bloxstrap
                 if (Paths.Process != Paths.Application && !File.Exists(Paths.Application))
                     File.Copy(Paths.Process, Paths.Application);
 
-                // Instead of Logger.Initialize(true);
                 Logger.Initialize(Paths.Base, LaunchSettings.UninstallFlag.Active);
 
                 if (!Logger.Initialized && !Logger.NoWriteMode)
@@ -303,6 +314,16 @@ namespace Bloxstrap
                 }
 
                 Locale.Set(Settings.Prop.Locale);
+
+                // --- NYXSTRAP V1.1.0: REGISTRY CHECK FOR OPTIMIZATIONS ---
+                if (!WindowsRegistry.CheckAdminStatus())
+                {
+                    Logger.WriteLine(LOG_IDENT, "Admin status flag missing. Executing network/system optimization check...");
+                    
+                    // Note: Ensure your NetworkOptimizer logic is called here if needed
+                    // WindowsRegistry.SetAdminGranted(); 
+                }
+                // ---------------------------------------------------------
 
                 if (!LaunchSettings.BypassUpdateCheck)
                     Installer.HandleUpgrade();
